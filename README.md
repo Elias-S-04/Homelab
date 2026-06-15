@@ -21,3 +21,32 @@ The purpose of this project is to build and document a small self-hosted infrast
 - Prometheus
 - Grafana
 - Terraform
+
+## Objectives
+
+- Learn Linux administration
+- Learn Docker
+- Learn reverse proxies
+- Learn Kubernetes
+- Learn GitOps
+- Learn Infrastructure as Code
+- Learn monitoring
+- Build a production-like platform
+
+## Current Architecture
+
+Windows PC
+    │
+VS Code
+    │
+GitHub
+    │
+SSH
+    │
+Raspberry Pi
+    │
+Docker
+    │
+Traefik
+    │
+Uptime Kuma

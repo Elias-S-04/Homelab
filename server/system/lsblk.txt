@@ -1,0 +1,8 @@
+NAME        FSTYPE   FSVER LABEL           UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+loop0       squashfs 4.0                                                              0   100% /snap/snapd/25939
+loop1       squashfs 4.0                                                              0   100% /snap/snapd/26869
+sda                                                                                            
+└─sda1      ext4     1.0   homelab-storage b0f0310c-5c08-4af1-8150-ad51340b0282  869.2G     0% /srv/storage
+mmcblk0                                                                                        
+├─mmcblk0p1 vfat     FAT32 system-boot     F766-26D3                             317.5M    37% /boot/firmware
+└─mmcblk0p2 ext4     1.0   writable        c5da9c27-d622-4e80-89db-6af2e32618b4   23.6G    14% /

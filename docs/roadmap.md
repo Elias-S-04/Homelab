@@ -18,7 +18,9 @@
 - [x] Install Docker Compose
 - [x] Move Docker Root Directory
 - [x] Verify Docker installation
-- [x] Deploy first production service
+- [x] Deploy first production service (Uptime Kuma)
+- [x] Deploy reverse proxy (Traefik)
+- [x] Internal DNS
 
 ---
 

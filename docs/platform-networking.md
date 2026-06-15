@@ -28,3 +28,17 @@ The homelab uses `home.arpa` as the internal DNS zone.
 
 ```text
 status.home.arpa -> Traefik -> Uptime Kuma
+
+## Implementation
+
+Traefik now routes requests for:
+
+status.home.arpa
+
+to:
+
+Uptime Kuma
+
+The application is no longer directly exposed through port 3001.
+
+Only the reverse proxy is exposed.
