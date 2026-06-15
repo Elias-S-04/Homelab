@@ -18,7 +18,7 @@
 - [x] Install Docker Compose
 - [x] Move Docker Root Directory
 - [x] Verify Docker installation
-- [ ] Deploy first production service
+- [x] Deploy first production service
 
 ---
 
