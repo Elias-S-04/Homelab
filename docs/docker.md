@@ -6,7 +6,14 @@ Provide a container runtime for the homelab.
 
 ## Storage Layout
 
-Docker data will be stored on the external drive `/srv/storage/docker`.
+Docker Engine is installed from Docker's official repository.
 
+Persistent Docker data will not be stored on the operating system.
 
-Persistent application data will be stored separately from the operating system.
+Instead Docker Root will be located at:
+
+```
+/srv/storage/docker
+```
+
+This separates the operating system from application data and simplifies backup and recovery.
