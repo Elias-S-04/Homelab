@@ -90,3 +90,16 @@ sudo systemctl stop docker
 ```bash
 sudo systemctl start docker
 ```
+
+## First Production Service: Uptime Kuma
+
+Uptime Kuma was deployed as the first Docker Compose service in the homelab.
+
+### Purpose
+
+Uptime Kuma provides basic service monitoring for the homelab environment.
+
+### Compose Location
+
+```text
+infrastructure/docker/uptime-kuma/docker-compose.yml
