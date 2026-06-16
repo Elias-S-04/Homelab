@@ -1,0 +1,22 @@
+/srv
+└── storage
+    ├── backups
+    ├── docker
+    │   ├── buildkit
+    │   ├── compose
+    │   ├── containers
+    │   ├── engine-id
+    │   ├── image
+    │   ├── network
+    │   ├── plugins
+    │   ├── rootfs
+    │   ├── runtimes
+    │   ├── swarm
+    │   ├── tmp
+    │   └── volumes
+    ├── kubernetes
+    ├── logs
+    ├── lost+found
+    └── test.txt
+
+18 directories, 2 files
