@@ -11,15 +11,19 @@ The purpose of this project is to build and document a small self-hosted infrast
 - External storage mounted at `/srv/storage`
 - Docker CE installed
 - Docker data-root moved to `/srv/storage/docker`
+- Uptime Kuma deployed with Docker Compose
+- Traefik deployed as reverse proxy
+- `status.home.arpa` routes to Uptime Kuma through Traefik
 
 ## Planned Stack
 
 - Docker Compose
+- Traefik
 - Uptime Kuma
-- k3s
-- ArgoCD
 - Prometheus
 - Grafana
+- k3s
+- ArgoCD
 - Terraform
 
 ## Objectives
