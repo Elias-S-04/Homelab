@@ -23,9 +23,9 @@
 ## Phase 2 - Observability
 
 - [x] Deploy Prometheus (and Node Exporter)
-- [ ] Deploy Grafana
-- [ ] Deploy Node Exporter
-- [ ] Build server dashboard
+- [x] Deploy Grafana
+- [x] Deploy Node Exporter
+- [x] Build server dashboard
 
 ## Phase 3 - Backup and Recovery
 
