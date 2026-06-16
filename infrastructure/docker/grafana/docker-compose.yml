@@ -1,0 +1,23 @@
+services:
+  grafana:
+    image: grafana/grafana-oss:latest
+    container_name: grafana
+    restart: unless-stopped
+    user: "472:472"
+    networks:
+      - observability
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.grafana.rule=Host(`grafana.home.arpa`)"
+      - "traefik.http.routers.grafana.entrypoints=web"
+      - "traefik.http.services.grafana.loadbalancer.server.port=3000"
+    volumes:
+      - /srv/storage/docker/volumes/grafana:/var/lib/grafana
+
+networks:
+  observability:
+    external: true
+  proxy:
+    external: true

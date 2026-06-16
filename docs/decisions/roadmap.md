@@ -18,14 +18,14 @@
 - [x] Deploy Traefik
 - [x] Configure internal DNS with `home.arpa`
 - [x] Route `status.home.arpa` through Traefik
-- [ ] Review and merge platform networking branch
+- [x] Review and merge platform networking branch
 
 ## Phase 2 - Observability
 
-- [ ] Deploy Prometheus
-- [ ] Deploy Grafana
-- [ ] Deploy Node Exporter
-- [ ] Build server dashboard
+- [x] Deploy Prometheus (and Node Exporter)
+- [x] Deploy Grafana
+- [x] Deploy Node Exporter
+- [x] Build server dashboard
 
 ## Phase 3 - Backup and Recovery
 
