@@ -35,18 +35,11 @@ The purpose of this project is to build and document a small self-hosted infrast
 
 ## Current Architecture
 
-Windows PC
-    │
-VS Code
-    │
-GitHub
-    │
-SSH
-    │
-Raspberry Pi
-    │
-Docker
-    │
-Traefik
-    │
-Uptime Kuma
+```mermaid
+flowchart TD
+    A[Windows PC / VS Code] --> B[GitHub Repository]
+    A --> C[SSH]
+    C --> D[Raspberry Pi 3 B+]
+    D --> E[Docker Engine]
+    E --> F[Traefik Reverse Proxy]
+    F --> G[Uptime Kuma]
