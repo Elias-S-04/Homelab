@@ -1,0 +1,6 @@
+CONTAINER ID   IMAGE                        COMMAND                  CREATED             STATUS                  PORTS                                                                              NAMES
+ebdaea942d02   grafana/grafana-oss:latest   "/run.sh"                About an hour ago   Up About an hour        3000/tcp                                                                           grafana
+97f59b3f1be7   prom/prometheus:latest       "/bin/prometheus --c…"   2 hours ago         Up 2 hours              9090/tcp                                                                           prometheus
+6687fc272dd3   prom/node-exporter:latest    "/bin/node_exporter …"   2 hours ago         Up 2 hours              9100/tcp                                                                           node-exporter
+9fbbcc2ffc9a   louislam/uptime-kuma:1       "/usr/bin/dumb-init …"   21 hours ago        Up 21 hours (healthy)   3001/tcp                                                                           uptime-kuma
+a1160c2fc15d   traefik:v3.6                 "/entrypoint.sh --ap…"   23 hours ago        Up 23 hours             0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   traefik

@@ -1,0 +1,7 @@
+NETWORK ID     NAME                  DRIVER    SCOPE
+535385df2e80   bridge                bridge    local
+3e3062d39f6e   host                  host      local
+7269351d4344   none                  null      local
+f2cfe6df3179   observability         bridge    local
+f2cfaeb1eb53   proxy                 bridge    local
+eb108932677f   uptime-kuma_default   bridge    local

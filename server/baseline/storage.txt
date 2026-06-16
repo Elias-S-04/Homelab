@@ -1,0 +1,8 @@
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            90M  3.6M   87M   4% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           450M     0  450M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/mmcblk0p1  505M  187M  318M  38% /boot/firmware
+/dev/sda1       916G   55M  870G   1% /srv/storage
+tmpfs            90M   12K   90M   1% /run/user/1000
