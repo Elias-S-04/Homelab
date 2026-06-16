@@ -27,3 +27,11 @@ Docker services remain operational.
 Kubernetes will initially host only test workloads.
 
 Production services will be migrated gradually.
+
+## Pre-installation Notes
+
+The Raspberry Pi 3 B+ has limited memory.
+
+A 1 GB swapfile was added before installing k3s to reduce the risk of memory pressure during Kubernetes experiments.
+
+k3s will be installed with the built-in Traefik ingress controller disabled, because the homelab already uses a Docker-based Traefik reverse proxy.
